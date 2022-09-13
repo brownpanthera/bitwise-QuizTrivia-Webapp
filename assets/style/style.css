@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
     font-family: 'gotham';
     src: url('/font/GothamHTF-Book.woff');
@@ -61,61 +60,3 @@ p:hover{
     display: grid;
     grid-template-columns: auto auto;
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background: #112B63;
-    height: 100vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-   min-width: 438px;
-}
-
-
-h1{
-    color: white; 
-    font-family: 'Montserrat', sans-serif;
-    border-bottom: 2px solid white;
-    width: 100%;
-    text-decoration: none;
-}
-
-.box button{
-   width: 100%;
-   margin-top: 1rem;
-   padding: .5rem 0;
-
-   font-family: 'Montserrat', sans-serif;
-   font-size: 1.3rem;
-   letter-spacing: .1rem;
-   
-
-    border: 2px solid #112B63;
-    border-radius: 8px;
-    box-shadow: 5px 10px 2px #111d36;
-   
-}
-
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: black;
-    font: bolder;
-}
-
-button:hover{
-    background: #8F79B3;
-}
-
-a:hover{
-    color: white;
-}
->>>>>>> e3041dc7942165ca188a00f8b75a48fab0a12b3c
