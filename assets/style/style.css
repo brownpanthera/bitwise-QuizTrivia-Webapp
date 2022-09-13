@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('/font/GothamHTF-Book.woff');
+}
+
+body{
+    font-family: 'gotham';
+}
+
+
+/* .container{
+    
+} */
+
+/* .question{
+    border: solid 2px tomato;
+} */
+
+
+.clock-timer{
+    display: flex;
+    justify-content: end;
+}
+
+.timer{
+    width: 50px;
+    margin-right: 60px;
+}
+
+span{
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+}
+
+h4{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: solid 2px rgb(65, 65, 65);  
+}
+
+p{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: solid 2px rgb(65, 65, 65);  
+    cursor: pointer;
+}
+
+p:hover{
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+/* options */
+.options{
+    display: grid;
+    grid-template-columns: auto auto;
+}

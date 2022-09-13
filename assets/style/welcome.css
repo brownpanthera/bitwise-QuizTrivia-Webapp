@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "gotham";
+  src: url("/font/GothamHTF-Book.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "gotham";
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-width: 438px;
+}
+
+p {
+  border-bottom: 2px solid white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.box button {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: rgb(65, 65, 65);
+  color: white;
+}
