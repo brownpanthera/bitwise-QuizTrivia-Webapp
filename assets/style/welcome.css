@@ -15,15 +15,9 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
-  min-width: 438px;
 }
 
-p {
-  border-bottom: 2px solid white;
-  font-size: 40px;
-  text-decoration: none;
-}
-
+/* READY TO PLAY BUTTON */
 .box button {
   cursor: pointer;
   width: 100%;
@@ -37,6 +31,45 @@ p {
 }
 
 button:hover {
-  background: rgb(65, 65, 65);
+  background: linear-gradient(to bottom, #6a3093, #a044ff);
   color: white;
+}
+
+
+/* RULES BUTTON */
+.btn {
+  font-family: "gotham";
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.rules {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333;
+  width: 400px;
+  padding: 20px;
+  line-height: 1.5;
+  min-height: 100vh;
+  color: #fff;
+  transform: translateX(-500px);
+  transition: transform 0.3s ease-in-out;
+}
+.rules.show {
+  transform: translateX(-10px);
 }

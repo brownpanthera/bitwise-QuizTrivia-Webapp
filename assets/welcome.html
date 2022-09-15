@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home-Quiz</title>
-    <link rel="stylesheet" href="/assets/style/welcome.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/assets/style/welcome.css" />
+  </head>
+  <body>
     <div class="box">
-    <p>
-    Welcome to the Quiz Trivia 
-    </p>
-<a href="/assets/index.html"><button>Ready to Play!</button></a>
-</div>
-</body>
+      <h2>Welcome to the Quiz Trivia</h2>
+      <a href="/assets/index.html"
+        ><button class="glow-on-hover btn">Ready to Play!</button></a
+      >
+    </div>
+
+    <button id="rules-btn" class="btn rules-btn">Rules</button>
+    <div id="rules" class="rules">
+      <h3>How to play:</h3>
+      <br />
+      <p>You have only 15 sec for every question.</p><br>
+      <p>Now you know the rules! are you ready?</p><br>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+
+    <!-- <audio autoplay loop>
+      <source src="/assets/audio/backg_music.mp3" type="audio/mpeg">
+    </audio> -->
+    <script src="/src/welcome.js"></script>
+  </body>
 </html>
