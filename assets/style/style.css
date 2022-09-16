@@ -8,6 +8,7 @@ body {
 }
 
 .container{
+  background: white;
   border: 1px solid black;
   position: absolute;
   top: 20%;
@@ -57,7 +58,7 @@ h4 {
   border: solid 2px rgb(65, 65, 65);
 }
 
-p {
+p{
   padding: 10px;
   margin: 15px;
   border-radius: 5px;
@@ -65,13 +66,27 @@ p {
   cursor: pointer;
 }
 
-p:hover {
-  color: white;
-background: black;
+p:hover{
+color: white;
+background: rgb(65, 65, 65);
 }
 
 /* options */
-.options {
+.options{
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.scoreCard{
+  display: flex;
+  justify-content: center;
+}
+
+#finalscore{
+  position: absolute;
+  top: 80%;
+  margin: 15px;
+  border-radius: 5px;
+  border: solid 2px rgb(65, 65, 65);
+  padding: 10px;
 }
