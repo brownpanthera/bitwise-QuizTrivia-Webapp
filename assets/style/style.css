@@ -5,12 +5,12 @@
 
 body {
   font-family: "gotham";
-  background: #85a8e0;
+  background:#5072A7;
 }
 
 .container{
   /* background: #ffe4e1; */
-  background: #fff68f;
+  background: white;
   border: 1px solid black;
   position: absolute;
   top: 20%;
@@ -48,6 +48,7 @@ body {
 }
 
 .clock{
+  color: white;
   position: absolute;
   top: 20%;
   font-size: 20px;
@@ -87,11 +88,14 @@ background: rgb(65, 65, 65);
 
 #finalscore{
   position: absolute;
+  color: white;
+  border-style: none;
+  background: black;
   top: 85%;
   margin: 15px;
   border-radius: 5px;
-  border: solid 2px rgb(65, 65, 65);
-  padding: 10px;
+  border: solid 1px rgb(65, 65, 65);
+  padding: 10px 20px;
 }
 
 .playBtn{
@@ -131,4 +135,23 @@ background: rgb(65, 65, 65);
 
 .op4{
   background-color: white;
+}
+
+@media only screen and (max-width: 900px){
+  body{
+    background: rebeccapurple;
+  }
+  
+  .container{
+    width: 100%;
+    right:70%;
+    margin-left: 0;
+  }
+  
+  
+  .options{
+    width: 100%;
+    
+
+  }
 }
