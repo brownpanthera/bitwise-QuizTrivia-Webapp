@@ -11,6 +11,7 @@
 
 body {
   font-family: "gotham";
+  background: #fff68f;
   height: 100vh;
   justify-content: center;
   display: flex;
@@ -42,7 +43,7 @@ button:hover {
   cursor: pointer;
   border: 0;
   padding: 10px 20px;
-  background: #000;
+  background-color: rgb(34, 34, 34);
   color: #fff;
   border-radius: 5px;
 }

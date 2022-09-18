@@ -1,14 +1,16 @@
 @font-face {
   font-family: "gotham";
-  src: url("../font/GothamHTF-Book.woff");
+  src: url("/font/GothamHTF-Book.woff");
 }
 
 body {
   font-family: "gotham";
+  background: #85a8e0;
 }
 
 .container{
-  background: white;
+  /* background: #ffe4e1; */
+  background: #fff68f;
   border: 1px solid black;
   position: absolute;
   top: 20%;
@@ -48,6 +50,7 @@ body {
 .clock{
   position: absolute;
   top: 20%;
+  font-size: 20px;
 }
 
 h4 {
@@ -84,9 +87,48 @@ background: rgb(65, 65, 65);
 
 #finalscore{
   position: absolute;
-  top: 80%;
+  top: 85%;
   margin: 15px;
   border-radius: 5px;
   border: solid 2px rgb(65, 65, 65);
   padding: 10px;
+}
+
+.playBtn{
+  display: flex;
+  justify-content: start;
+}
+
+.play-again{
+  position: absolute;
+  font-family: "gotham";
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+  border-radius: 5px;
+  top: 30px;
+  left: 30px;
+}
+
+.play-again:hover{
+  background: linear-gradient(to bottom, #6a3093, #a044ff);
+  color: white;
+}
+
+.op1{
+  background-color: white;
+}
+
+.op2{
+  background-color: white;
+}
+
+.op3{
+  background-color: white;
+}
+
+.op4{
+  background-color: white;
 }
