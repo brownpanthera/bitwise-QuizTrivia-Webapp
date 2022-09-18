@@ -8,7 +8,7 @@ QuizTrivia is basically a web app, where you can play quizzes with a time limit.
 ### How we built it 💻
 We built our design on canva and we used HTML,CSS and JavaScript.
 ### Challenges we ran into 👊
-We struggle a lot to come up with reasonable solutions and there is a timer part where we had to show the actual time to user not only in console.
+We struggle a lot to come up with good solutions and also there is a timer part where we had to show the actual time to user not only in console.
 ### What we learned 📚
 Throughout the hackathon, we gained some experience in working on a team.
 ### What's next for ScheduLens ➡️
