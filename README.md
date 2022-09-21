@@ -9,7 +9,7 @@ We built our design on canva and we used HTML,CSS and JavaScript.
 We struggle a lot to come up with reasonable solutions and there is a timer part where we had to show the actual time to user not only in console.
 ### What we learned 📚
 Throughout the hackathon, we gained some experience in working on a team.
-### What's next for ScheduLens ➡️
+### What's next for quiztriva ➡️
 We would like to expand some features like storing their quizzes data on local storage so that they know how well they are performing.
 ### Built With
 Canva, Html, Css, JavaScript
